@@ -22,7 +22,8 @@ We use a sample table called `sales` with the following columns:
 ## Step-by-Step Instructions
 
 ### 1. Create the `sales` Table
-```sql
+```MySQL
+create database salse;
 create table sales (id INT AUTO_INCREMENT PRIMARY KEY, product VARCHAR(50), category VARCHAR(50), quantity INT, price DECIMAL(5, 2));
 SELECT * FROM sales.sales;
 use sales;
